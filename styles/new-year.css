@@ -22,6 +22,7 @@ body {
     height: 808px;
     flex-shrink: 0;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-container {
@@ -55,10 +56,12 @@ body {
     /* align-items: center; */
 }
 
-img {
+.image-container img {
     width: 569px;
     height: 700px;
     margin: 200px 0 0 200px;
+    /* background-color: aqua; */
+    /* background-size: cover; */
 }
 
 .profile-description {
@@ -147,6 +150,7 @@ img {
     /* background-position: bottom right, top left; */
     background-repeat: no-repeat;
     margin: 130px 130px 0 130px;
+    background-blend-mode: lighten;
 }
 
 .background h3 {

@@ -1,0 +1,38 @@
+.image-container{
+    width: 1000px;
+    height: 400px;
+    background-image: url('images/watch.png'), url('images/gradient2.png');
+    background-blend-mode:lighten;
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+.image-container h3{
+    padding: 100px 0 0 100px;
+}
+
+.profile-image-container{
+    width: 570px;
+    height: 700px;
+    /* background-color: lightcoral; */
+    /* padding: 200px 50px; */
+}
+
+.profile-image-container img{
+    position:absolute;
+}
+
+.image-background-container{
+    padding: 170px 20px;
+    position: absolute;
+}
+
+.image-background{
+    position:absolute;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background-color:aqua;
+    
+    /* margin: 200px 50px; */
+}
